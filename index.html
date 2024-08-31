@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookSocial - Connect with Readers</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+      <nav class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">BookSocial</h1>
+        <div>
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-700">Home</a>
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-700">My Books</a>
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-700">Genres</a>
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-700">Blog</a>
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-700">Friends</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mx-auto mt-8 grid grid-cols-3 gap-8">
+      <section class="col-span-2">
+        <h2 class="text-xl font-semibold mb-4">Your Reading Feed</h2>
+        <div class="space-y-4">
+          <div class="bg-white p-4 rounded shadow">
+            <p>
+              <strong>Jane Doe</strong> rated <em>The Great Gatsby</em> 5 stars
+            </p>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <p>
+              <strong>John Smith</strong> wrote a new blog post: "My Top 10
+              Sci-Fi Novels"
+            </p>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <p>
+              <strong>Alice Johnson</strong> added 3 books to her "Want to Read"
+              shelf
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <aside>
+        <h2 class="text-xl font-semibold mb-4">Your Reading Stats</h2>
+        <div class="bg-white p-4 rounded shadow">
+          <p>Books read this year: 12</p>
+          <p>Top genre: Mystery</p>
+          <p>Reading goal progress: 60%</p>
+        </div>
+
+        <h2 class="text-xl font-semibold mt-8 mb-4">Genre Rankings</h2>
+        <div class="bg-white p-4 rounded shadow">
+          <ol>
+            <li>1. Mystery</li>
+            <li>2. Science Fiction</li>
+            <li>3. Fantasy</li>
+            <li>4. Non-fiction</li>
+            <li>5. Romance</li>
+          </ol>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="bg-gray-200 mt-12 py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 BookSocial. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
